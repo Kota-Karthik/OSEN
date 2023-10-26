@@ -112,6 +112,11 @@ const NAVBAR = ({}) => {
                 </Link>
               </li>
               <li>
+                <Link to={`#projects`}>
+                  <span className="links">projects </span>{' '}
+                </Link>
+              </li>
+              <li>
                 <Link to={`#sponsors`}>
                   <span className="links">sponsors </span>{' '}
                 </Link>

@@ -5,6 +5,9 @@
   font-family: 'Montserrat', sans-serif;
   position: relative;
 }
+body{
+  overflow-x: hidden;
+}
 .mediaInfo {
   margin-top: 10vh;
   background-size: auto 100vh;
@@ -33,6 +36,12 @@
     grid-template-columns: 1fr; 
 }
 }
+@media (max-width: 480px) {
+  .projectsContainer {
+    grid-template-columns: 1fr; 
+}
+}
+
 
 @media (min-width: 1000px) { 
   .projectsContainer {
